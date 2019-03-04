@@ -5,6 +5,7 @@ RUN \
   DEBIAN_FRONTEND=noninteractive \
     apt-get install -y \
       rygel \
+      rygel-gst-launch \
   && \
   apt-get clean && \
   rm -rf /var/lib/apt/lists/
