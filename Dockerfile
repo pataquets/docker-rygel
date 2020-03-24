@@ -1,4 +1,4 @@
-FROM pataquets/ubuntu:bionic
+FROM pataquets/gstreamer:bionic
 
 RUN \
   apt-get update && \
