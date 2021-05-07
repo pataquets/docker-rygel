@@ -1,4 +1,4 @@
-FROM pataquets/gstreamer:bionic
+FROM pataquets/gstreamer:focal
 
 RUN \
   apt-get update && \
